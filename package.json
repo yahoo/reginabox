@@ -1,0 +1,42 @@
+{
+  "name": "reginabox",
+  "version": "1.0.0",
+  "description": "instant npm mirror",
+  "main": "index.js",
+  "bin": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yahoo/reginabox.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "npm",
+    "mirror",
+    "registry",
+    "registry-static"
+  ],
+  "author": "bengl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yahoo/reginabox/issues"
+  },
+  "homepage": "https://github.com/yahoo/reginabox",
+  "dependencies": {
+    "davlog": "0.0.2",
+    "express": "^4.12.3",
+    "lru-cache": "^2.5.0",
+    "mdns": "^2.2.8",
+    "registry-static": "^0.1.11",
+    "st": "^0.5.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.1",
+    "mockery": "^1.4.0",
+    "ncp": "^2.0.0",
+    "nock": "^1.2.1",
+    "request": "^2.54.0",
+    "rimraf": "^2.3.2"
+  }
+}
