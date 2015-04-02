@@ -1,5 +1,7 @@
 # reginabox
 
+[![Build Status](https://travis-ci.org/yahoo/reginabox.svg)](https://travis-ci.org/yahoo/reginabox)
+
 **`reginabox`** (Registry In A Box) is an easy way to set up an npm registry mirror on your local network, and let local network users know about it.
 
 ### Installation
