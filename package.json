@@ -29,7 +29,7 @@
     "lru-cache": "^2.5.0",
     "mdns": "^2.2.8",
     "registry-static": "^0.1.11",
-    "st": "^0.5.3"
+    "st": "^1.2.0"
   },
   "devDependencies": {
     "mocha": "^2.2.1",
