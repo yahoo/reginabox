@@ -1,9 +1,15 @@
-before_install:
-  - sudo apt-get update -qq
-  - sudo apt-get install -y libavahi-compat-libdnssd-dev
 language: node_js
 node_js:
-  - "0.12"
-  - "0.11"
-  - "0.10"
-  - "iojs"
+  - "4"
+  - "6"
+  - "7"
+# https://docs.travis-ci.com/user/languages/javascript-with-nodejs#Node.js-v4-(or-io.js-v3)-compiler-requirements
+env:
+  - CXX=g++-4.8
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-4.8
+      - libavahi-compat-libdnssd-dev
