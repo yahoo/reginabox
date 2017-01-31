@@ -1,6 +1,6 @@
 {
   "name": "reginabox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "instant npm mirror",
   "main": "index.js",
   "bin": "index.js",
